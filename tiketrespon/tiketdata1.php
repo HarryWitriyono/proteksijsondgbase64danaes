@@ -14,6 +14,10 @@ function aesdec($pt) {
 	$chsl=openssl_decrypt($pt,$algo,$kunci,$option=0,$iv);
 	return $chsl;	
 }
+if (empty($daftarpelanggantiket)){
+echo "Server down !";
+exit();
+}
 $daftarpelanggantiket=ambildatajsontiket($url);
 $hasil=json_decode($daftarpelanggantiket);
 foreach($hasil as $r) {
