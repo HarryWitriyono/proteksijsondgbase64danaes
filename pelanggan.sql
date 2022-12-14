@@ -39,8 +39,8 @@ CREATE TABLE `pelanggan` (
 --
 
 INSERT INTO `pelanggan` (`NIK`, `NamaPelanggan`, `Alamat`, `Password`) VALUES
-('1771060208710002', 'Isti H', 'Jalan Teratai 3 RT.2/RW.1 No.96, Kelurahan Kebun Beler, Kecamatan Ratu Agung, Kota Bengkulu', '200017802601771'),
-('1771061012690001', 'Harry Witriyono', 'Jalan Teratai 3 RT.2/RW.1 No.96, Kelurahan Kebun Beler, Kecamatan Ratu Agung, Kota Bengkulu', '1000962101601771');
+('1771061208720002', 'Isti H', 'Jalan Teratai 3 RT.2/RW.1 No.96, Kelurahan Kebun Beler, Kecamatan Ratu Agung, Kota Bengkulu', '200017812601771'),
+('1771061112690001', 'Harry Witriyono', 'Jalan Teratai 3 RT.2/RW.1 No.96, Kelurahan Kebun Beler, Kecamatan Ratu Agung, Kota Bengkulu', '1000962111601771');
 
 --
 -- Indexes for dumped tables
